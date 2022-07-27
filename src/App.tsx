@@ -1,11 +1,12 @@
 import React from 'react';
-import { Task } from './pages';
+import { Dashboard } from './pages';
+
 
 const App = () => {
   return (
     <div className="App">
       Hola Mundito!
-      <Task />
+      <Dashboard />
     </div>
   );
 }
