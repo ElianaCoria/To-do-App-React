@@ -1,7 +1,7 @@
-const AddUser = () => {
+const SignUp = () => {
     return(
         <div>agregar usuario</div>  
     )
 }
 
-export { AddUser };
+export { SignUp };
