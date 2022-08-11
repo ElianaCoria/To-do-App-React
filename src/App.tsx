@@ -1,5 +1,5 @@
 import React from 'react';
-import { Dashboard } from './pages';
+import { Dashboard, SignUp } from './pages';
 
 
 const App = () => {
@@ -7,6 +7,7 @@ const App = () => {
     <div className="App">
       Hola Mundito!
       <Dashboard />
+      <SignUp />
     </div>
   );
 }
