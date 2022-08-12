@@ -1,6 +1,11 @@
+import { FormSignUp } from "./components";
+
 const SignUp = () => {
     return(
-        <div>agregar usuario</div>  
+        <div className="page-signup">
+            <FormSignUp />
+
+        </div>  
     )
 }
 
