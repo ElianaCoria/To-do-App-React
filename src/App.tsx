@@ -1,14 +1,20 @@
 import React from 'react';
-import { Dashboard, SignUp } from './pages';
+import { Outlet } from 'react-router-dom'
+
+
 
 
 const App = () => {
   return (
-    <div className="App">
-      Hola Mundito!
-      <Dashboard />
-      <SignUp />
-    </div>
+
+    <Outlet />
+    // <div className="App">
+      
+    //   Hola Mundito!
+    // </div>
+
+    
+
   );
 }
 
